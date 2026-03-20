@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#FFFBF5"/>
+  <circle cx="1050" cy="120" r="110" fill="#DBEAFE"/>
+  <circle cx="140" cy="500" r="150" fill="#EDE9FE"/>
+  <text x="120" y="230" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">PathThrive</text>
+  <text x="120" y="320" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="40">Human-powered job search support that helps you land interviews faster.</text>
+  <text x="120" y="390" fill="#5468FF" font-family="Arial, Helvetica, sans-serif" font-size="34">ATS-friendly resumes • LinkedIn optimization • Application support</text>
+  <g transform="translate(840 210)">
+    <rect width="190" height="190" rx="28" fill="#FFFFFF"/>
+    <path d="M44.154 12.154 29.164 27.144l74.41 74.41 14.99-14.99-74.41-74.41Z" fill="#5468FF"/>
+    <path d="M66.351 12.154 51.361 27.144l74.41 74.41 14.99-14.99-74.41-74.41Z" fill="#7C3AED"/>
+    <path d="M103.49 101.615 118.48 116.605 44.07 191.015 29.08 176.025l74.41-74.41Z" fill="#5468FF"/>
+    <path d="M125.687 101.615 140.677 116.605 66.267 191.015l-14.99-14.99 74.41-74.41Z" fill="#7C3AED"/>
+  </g>
+</svg>
