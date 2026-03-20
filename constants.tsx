@@ -218,11 +218,11 @@ export const STATISTICS_DATA = [
 
 const serviceIconProps = { className: "w-8 h-8 text-[#5C5FF5]" }; // Updated color
 export const SERVICES_DATA = [
-  { id: '1', title: 'ATS-Friendly Custom Resumes', description: 'Tailored resumes that beat applicant tracking systems and impress recruiters.', icon: React.createElement(CheckBadgeIcon, serviceIconProps) },
-  { id: '3', title: 'LinkedIn Profile Optimization', description: 'Enhance your LinkedIn presence to attract recruiters and network effectively.', icon: React.createElement(CheckBadgeIcon, serviceIconProps) },
-  { id: '4', title: 'Job Application Delegation', description: 'Let our assistants handle the tedious task of filling out applications accurately.', icon: React.createElement(CheckBadgeIcon, serviceIconProps) },
-  { id: '5', title: 'Application Tracking with Proof', description: 'A transparent system to monitor your application status with submission confirmations.', icon: React.createElement(CheckBadgeIcon, serviceIconProps) },
-  { id: '6', title: 'Dedicated WhatsApp Support', description: 'Direct and quick communication with your assigned assistant via WhatsApp.', icon: React.createElement(CheckBadgeIcon, serviceIconProps) },
+  { id: 'resume', title: 'ATS-Friendly Custom Resumes', description: 'Tailored resumes that beat applicant tracking systems and impress recruiters.', icon: React.createElement(CheckBadgeIcon, serviceIconProps) },
+  { id: 'linkedin', title: 'LinkedIn Profile Optimization', description: 'Enhance your LinkedIn presence to attract recruiters and network effectively.', icon: React.createElement(CheckBadgeIcon, serviceIconProps) },
+  { id: 'delegation', title: 'Job Application Delegation', description: 'Let our assistants handle the tedious task of filling out applications accurately.', icon: React.createElement(CheckBadgeIcon, serviceIconProps) },
+  { id: 'tracking', title: 'Application Tracking with Proof', description: 'A transparent system to monitor your application status with submission confirmations.', icon: React.createElement(CheckBadgeIcon, serviceIconProps) },
+  { id: 'support', title: 'Dedicated WhatsApp Support', description: 'Direct and quick communication with your assigned assistant via WhatsApp.', icon: React.createElement(CheckBadgeIcon, serviceIconProps) },
 ];
 
 export const PRICING_PLANS_DATA = [
@@ -289,8 +289,8 @@ export const FOOTER_LINKS = {
   ],
   resources: [
     { label: 'Testimonials', path: '/wall-of-love' },
-    { label: 'Privacy Policy', path: '/privacy' },
-    { label: 'Terms of Service', path: '/terms' },
+    { label: 'Pricing', path: '/pricing' },
+    { label: 'Contact', path: '/contact' },
   ],
   services: [
     { label: 'Resume Writing', path: '/services#resume' },

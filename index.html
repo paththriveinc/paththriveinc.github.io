@@ -3,36 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PathThrive</title>
+    <title>PathThrive | Job Search Support, Resume Help & Application Services</title>
+    <meta name="description" content="PathThrive helps job seekers land interviews faster with ATS-friendly resumes, LinkedIn optimization, hands-on job application support, and career coaching." />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#5468FF" />
+    <meta property="og:site_name" content="PathThrive" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PathThrive | Job Search Support, Resume Help & Application Services" />
+    <meta property="og:description" content="PathThrive helps job seekers land interviews faster with ATS-friendly resumes, LinkedIn optimization, hands-on job application support, and career coaching." />
+    <meta property="og:url" content="https://paththriveinc.github.io/" />
+    <meta property="og:image" content="https://paththriveinc.github.io/social-share.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PathThrive | Job Search Support, Resume Help & Application Services" />
+    <meta name="twitter:description" content="PathThrive helps job seekers land interviews faster with ATS-friendly resumes, LinkedIn optimization, hands-on job application support, and career coaching." />
+    <meta name="twitter:image" content="https://paththriveinc.github.io/social-share.svg" />
+    <link rel="canonical" href="https://paththriveinc.github.io/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <script>
+      (function() {
+        const params = new URLSearchParams(window.location.search);
+        const redirectPath = params.get('p');
+        if (redirectPath) {
+          const newUrl = `${redirectPath}${window.location.search.replace(/^[^?]*\?p=[^&]*&?/, '?').replace(/^\?$/, '')}${window.location.hash}`;
+          window.history.replaceState(null, '', newUrl);
+        }
+      })();
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/heroicons/2.1.3/24/outline/heroicons.min.css" rel="stylesheet">
     <style>
-      /* For Heroicons */
-      .icon-md {
-        width: 24px;
-        height: 24px;
-      }
-      .icon-lg {
-        width: 32px;
-        height: 32px;
-      }
-      /* Custom scrollbar for a more modern look */
       ::-webkit-scrollbar {
         width: 8px;
         height: 8px;
       }
       ::-webkit-scrollbar-track {
-        background: #FFFBF5; /* Warm off-white */
+        background: #FFFBF5;
       }
       ::-webkit-scrollbar-thumb {
-        background: #5468FF; /* Vibrant Blue */
+        background: #5468FF;
         border-radius: 4px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #4355E4; /* Darker Vibrant Blue */
+        background: #4355E4;
       }
-
-      /* Custom Animations */
       @keyframes content-fade-in-up {
         from {
           opacity: 0;
@@ -45,10 +59,10 @@
       }
       .animate-content-fade-in-up {
         animation: content-fade-in-up 0.8s ease-out forwards;
-        opacity: 0; /* Start hidden for animation */
+        opacity: 0;
       }
     </style>
-  <script type="importmap">
+    <script type="importmap">
 {
   "imports": {
     "react": "https://esm.sh/react@^19.1.0",
@@ -58,7 +72,7 @@
   }
 }
 </script>
-</head>
+  </head>
   <body class="bg-[#FFFBF5] text-slate-800 antialiased">
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>

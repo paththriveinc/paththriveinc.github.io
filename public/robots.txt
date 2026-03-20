@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://paththriveinc.github.io/sitemap.xml
